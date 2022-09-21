@@ -1,5 +1,3 @@
-from email.policy import default
-
 amount = input ("Ingrese monto: ")
 
 match int(amount):
