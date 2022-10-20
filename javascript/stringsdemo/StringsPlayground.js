@@ -17,7 +17,7 @@ console.log(sentenceWithSpaces.trim());
 console.log(sentenceWithSpaces.length);
 
 // String compare (taken from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
-console.log('\String comparision:');
+console.log('\nString comparision:');
 
 console.log('hello' == 'hello');
 // expected output: true
@@ -27,3 +27,12 @@ console.log('1' ==  1);
 
 console.log(0 == false);
 // expected output: true
+
+
+// Conversions
+console.log(Math.PI.toFixed(4));
+console.log(Math.PI.toString());
+floatVal = parseFloat("321.23") + 20;
+console.log(floatVal);
+intVal = parseInt("321.23") + 20;
+console.log(floatVal);

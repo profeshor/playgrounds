@@ -1,4 +1,8 @@
 # Declaration
+from decimal import Decimal
+from tokenize import Double
+
+
 name = "Pablo Perez Martinez"
 print ("Hola " + name)
 # Split
@@ -27,3 +31,10 @@ print("name2 > name : ")
 print(name2 > name)
 print("name2 <= name : ")
 print(name2 <= name)
+
+# Conversions
+intNumber = 13
+strVal = str(intNumber)
+decimalVal = Decimal("23.231432")
+convertedStr = "{:.2f}".format(decimalVal);
+print("{:.2f}".format(decimalVal))
