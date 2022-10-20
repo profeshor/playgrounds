@@ -6,6 +6,6 @@ if int(age) > 17:
     if int(quantity) <= 4:
         print("Su orden ha sido enviada")
     else:
-        print("La cantidad solicitada es demasiado alta")
+        print("La cantidad máxima aceptada es 4 litros")
 else:
     print("Usted es menor de edad. La orden ha sido cancelada")

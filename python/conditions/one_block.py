@@ -1,4 +1,4 @@
-age = 18
+age = 14
 
 if age > 17:
     print ("\n***** Es mayor de edad **** \n")
