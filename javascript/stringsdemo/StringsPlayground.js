@@ -15,3 +15,15 @@ let sentenceWithSpaces = "       Test trim string        ";
 console.log(sentenceWithSpaces.trim());
 // Length
 console.log(sentenceWithSpaces.length);
+
+// String compare (taken from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+console.log('\String comparision:');
+
+console.log('hello' == 'hello');
+// expected output: true
+
+console.log('1' ==  1);
+// expected output: true
+
+console.log(0 == false);
+// expected output: true
