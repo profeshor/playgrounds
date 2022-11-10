@@ -21,7 +21,7 @@ public class StringsPlayground {
 
         //String compare
         String name1= "Pablo P";
-        String name2= "Pablo p";
+        String name2= "Pablo P";
         System.out.println("Usando el método 'equals()': " + name2.equals(name1));
         System.out.println("Usando el método 'equalsIgnoreCase()': " + name2.equalsIgnoreCase(name1));
         System.out.println("Usando el método 'compareTo()': " + name2.compareTo(name1));
@@ -50,6 +50,6 @@ public class StringsPlayground {
             double value2 = Double.valueOf(value1);
          */
 
-         
+
     }
 }

@@ -35,6 +35,6 @@ print(name2 <= name)
 # Conversions
 intNumber = 13
 strVal = str(intNumber)
-decimalVal = Decimal("23.231432")
+decimalVal = Decimal("2323.231432")
 convertedStr = "{:.2f}".format(decimalVal);
 print("{:.2f}".format(decimalVal))
